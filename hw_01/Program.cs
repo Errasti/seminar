@@ -15,7 +15,11 @@ if ( firstnum > secondnum )
 {
     Console.WriteLine("Максимальное число равно: " + firstnum );
 }
-else
+else if ( secondnum > firstnum )
 {
     Console.WriteLine("Максимальное число равно: " + secondnum );
+}
+else if ( firstnum == secondnum )
+{
+    Console.WriteLine("Числа равны!");
 }
